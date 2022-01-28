@@ -53,7 +53,7 @@ function App() {
 
 
   const fetchTasks = async () => {
-    const res = await fetch('http://pertinacity1.pythonanywhere.com/pcsaleapi')
+    const res = await fetch('https://pertinacity1.pythonanywhere.com/pcsaleapi')
     const data = await res.json()
   
     return data
