@@ -84,10 +84,10 @@ const Inputform = ({mstat }) => {
             <option value="Other">Other</option>
  
             </Form.Select>
-            <Form.Control required  type="totalSale" placeholder="Total Sale" 
+            <Form.Control required  type="number" placeholder="Total Sale" 
              id="totalSale" className='bg-dark text-light border-secondary mb-1' name='totalSale'/>
              
-             <Form.Control required  type="sessions" placeholder="Sessions" 
+             <Form.Control required  type="number" placeholder="Sessions" 
              id="sessions" className='bg-dark text-light border-secondary mb-1' name='sessions'/>
  
             <Form.Select aria-label="Default select example" className='bg-dark text-light border-secondary mb-1' id="paymentType" name='paymentType'>
