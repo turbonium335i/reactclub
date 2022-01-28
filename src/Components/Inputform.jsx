@@ -102,7 +102,6 @@ const Inputform = ({mstat }) => {
             
             <option value="Instructor">Instructor</option>
             <option value="Boss">Boss</option>
-            <option value="Instructor">Instructor</option>
             <option value="Other">Other</option>
  
             </Form.Select>
