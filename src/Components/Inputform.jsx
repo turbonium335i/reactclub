@@ -41,7 +41,7 @@ const Inputform = ({mstat }) => {
         const api_instructor = document.getElementById('instructor').value
         const api_memo = document.getElementById('memo').value
       
-        if (api_totalSale != '') {
+        if (api_totalSale != '' && api_sessions != '') {
                 fetch('https://pertinacity1.pythonanywhere.com/pcsaleapicreate', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
